@@ -1,0 +1,7 @@
+# {"Notebook-task":{"x":787,"y":212}}
+test-loading-addtorepo:
+  dag_id: test-loading-addtorepo
+  tasks:
+    Notebook-task:
+      operator: >-
+        airflow.providers.amazon.aws.operators.sagemaker_unified_studio.SageMakerNotebookOperator
