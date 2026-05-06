@@ -1,6 +1,1 @@
 kjdvnlskNLsd
-<<<<<<< HEAD
-khvbkcjj - local change 2
-=======
-khvbkcjj - remote change
->>>>>>> b5b7bc9a63438045c456615bc3de434bac53b0b0
