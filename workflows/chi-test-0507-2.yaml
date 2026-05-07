@@ -1,7 +1,11 @@
-# {"Notebook-task":{"x":532,"y":246}}
+# {"Notebook-task":{"x":532,"y":246},"Athena-task":{"x":882.5,"y":272.5}}
 chi-test-0507-2:
   dag_id: chi-test-0507-2
   tasks:
     Notebook-task:
       operator: >-
         airflow.providers.amazon.aws.operators.sagemaker_unified_studio.SageMakerNotebookOperator
+    Athena-task:
+      dependencies:
+        - Notebook-task
+      operator: airflow.providers.amazon.aws.operators.athena.AthenaOperator
