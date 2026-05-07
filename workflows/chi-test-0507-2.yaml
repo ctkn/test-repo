@@ -1,0 +1,7 @@
+# {"Notebook-task":{"x":532,"y":246}}
+chi-test-0507-2:
+  dag_id: chi-test-0507-2
+  tasks:
+    Notebook-task:
+      operator: >-
+        airflow.providers.amazon.aws.operators.sagemaker_unified_studio.SageMakerNotebookOperator
