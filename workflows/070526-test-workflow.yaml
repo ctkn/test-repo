@@ -5,3 +5,9 @@
     Notebook-task:
       operator: >-
         airflow.providers.amazon.aws.operators.sagemaker_unified_studio.SageMakerNotebookOperator
+      input_config:
+        input_params: {}
+      compute: {}
+      output_config:
+        output_formats:
+          - NOTEBOOK
