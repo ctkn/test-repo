@@ -6,7 +6,8 @@
       operator: >-
         airflow.providers.amazon.aws.operators.sagemaker_unified_studio.SageMakerNotebookOperator
       input_config:
-        input_params: {}
+        input_params:
+          a: 0
       compute: {}
       output_config:
         output_formats:
