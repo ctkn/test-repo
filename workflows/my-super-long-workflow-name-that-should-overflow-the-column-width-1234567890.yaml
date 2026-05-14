@@ -1,7 +1,11 @@
-# {"Notebook-task":{"x":529,"y":273}}
+# {"Notebook-task":{"x":529,"y":273},"Glue-task":{"x":812.5,"y":275}}
 my-super-long-workflow-name-that-should-overflow-the-column-width-1234567890:
   dag_id: my-super-long-workflow-name-that-should-overflow-the-column-width-1234567890
   tasks:
     Notebook-task:
       operator: >-
         airflow.providers.amazon.aws.operators.sagemaker_unified_studio.SageMakerNotebookOperator
+    Glue-task:
+      dependencies:
+        - Notebook-task
+      operator: airflow.providers.amazon.aws.sensors.glue.GlueJobSensor
