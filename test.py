@@ -1,1 +1,1 @@
-print("hcbkascjkSCjlcdbnlcdjcdl")
+print("ooooooooo")
