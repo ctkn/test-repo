@@ -1,6 +1,7 @@
 # {"Notebook-task":{"x":529,"y":273},"Glue-task":{"x":812.5,"y":275}}
-my-super-long-workflow-name-that-should-overflow-the-column-width-1234567890:
-  dag_id: my-super-long-workflow-name-that-should-overflow-the-column-width-1234567890 # hjbvkcv
+my-super-long-workflow-name-that-should-overflow-the-column-width-1234567890-RpNPXGUFuM:
+  dag_id: >-
+    my-super-long-workflow-name-that-should-overflow-the-column-width-1234567890-RpNPXGUFuM
   tasks:
     Notebook-task:
       operator: >-
